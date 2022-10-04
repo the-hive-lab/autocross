@@ -1,0 +1,32 @@
+---
+model:
+  type: test
+  params: null
+
+state_bounds:
+  initial:
+    state: 42
+  final:
+    state: 42
+  upper:
+    state: 42
+  lower:
+    state: 42
+
+input_bounds:
+  initial:
+    input: 42
+  final:
+    input: 42
+  upper:
+    input: 42
+  lower:
+    input: 42
+
+preferences:
+  state_weights:
+    state: 42
+  input_weights:
+    input: 42
+  time_weight: 42
+...
